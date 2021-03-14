@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Shelly\\source\\repos\\AsciiCam\\AsciiCam\\AsciiCam.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Shelly\\source\\repos\\AsciiCam\\AsciiCam\\AsciiCam.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Shelly\\source\\repos\\AsciiCam\\AsciiCam\\AsciiCam.csproj",
+        "projectName": "AsciiCam",
+        "projectPath": "C:\\Users\\Shelly\\source\\repos\\AsciiCam\\AsciiCam\\AsciiCam.csproj",
+        "packagesPath": "C:\\Users\\Shelly\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Shelly\\source\\repos\\AsciiCam\\AsciiCam\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Shelly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Shelly\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
+          "C:\\Users\\Shelly\\source\\repos\\EZServer\\EZServer": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AForge": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "AForge.Genetic": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "AForge.Video.DirectShow": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Pastel": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
